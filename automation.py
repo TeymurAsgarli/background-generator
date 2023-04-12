@@ -64,3 +64,5 @@ show_message_button.click()
  
 output_message = chrome_browser.find_element(By.ID, 'display')
 assert 'I AM EXTRA COOOOL' in output_message.text
+
+print("hello world")
